@@ -50,6 +50,7 @@ app.use((req, res) => {
         message: `Page doesn't exits`,
         redirect: `/`,
         linkText: `register`,
+        token: req.cookies.token
     });
 });
 
